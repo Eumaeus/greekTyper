@@ -11,6 +11,10 @@ p.bigPosTag a {
 	padding: 10px;
 }
 
+#greekInput {
+	font-size: 150%;
+}
+
 #uCodeLabel {
 	margin-bottom: 2em;
 }

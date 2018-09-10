@@ -38,8 +38,8 @@ object MainView {
 		<textarea
 		class={ s"greekInputField" }
 		id="greekInput"
-		cols={ 40 }
-		rows={ 2 }
+		cols={ 50 }
+		rows={ 3 }
 		value=""
 		onkeyup={ greekKeyUpHandler }>
 		</textarea>	
