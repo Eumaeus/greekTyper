@@ -2,13 +2,19 @@ enablePlugins(ScalaJSPlugin, BuildInfoPlugin)
 
 name := "betaTyper"
 
-version := "1.1.0"
+version := "1.2.0"
 
 scalaVersion := "2.12.4"
 
 resolvers += Resolver.jcenterRepo
 resolvers += Resolver.bintrayRepo("neelsmith", "maven")
 resolvers += sbt.Resolver.bintrayRepo("denigma", "denigma-releases")
+
+javaOptions in run ++= Seq(
+    "-Xms1G",
+    "-Xss8M",
+    "-Xmx4G"
+)
 
 libraryDependencies ++= Seq(
   "org.scala-js" %% "scalajs-stubs" % scalaJSVersion % "provided",

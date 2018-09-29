@@ -199,6 +199,9 @@ object MainView {
 			</tr>
 			</tbody>
 			</table>
+			<p>
+				Sequence is: [* = capital?] [letter] [breathing?] [accent?] [dieresis?] [iota-subscript?]
+			</p>
 		</div>
 	}
 
